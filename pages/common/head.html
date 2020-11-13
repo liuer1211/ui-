@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 公共 base.css,使用压缩包 -->
+    <link rel="stylesheet" type="text/css" href="../../static/css/util/base.min.css"/>
+    <!-- 本页面 css -->
+    <link rel="stylesheet" type="text/css" href="../../static/css/common/head.min.css"/>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="head-main">
+        <!-- 图片尽量使用PNG -->
+        <img id="goBack" src="../../static/images/common/icon2.png"/>
+        <h1>标题</h1>
+        <span>帮助</span>
+    </div>
+    <!-- js 放到最后，使用压缩包 -->
+    <script type="text/javascript" src="../../static/js/util/jquery_2.0.min.js"></script>
+    <script type="text/javascript">
+        // 返回点击事件，尽量用id
+        $("#goBack").click(function () {
+            alert('返回')
+        })
+    </script>
+</body>
+</html>

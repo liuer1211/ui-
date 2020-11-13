@@ -1,0 +1,28 @@
+/*头部*/
+.head-main{
+    width: 100%;
+    padding: 0.7rem;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    display: -webkit-flex; /*在webkit内核的浏览器上使用要加前缀*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    background: #e7c137;
+}
+/*一般情况标签最好加各自的class，层级不多可简写*/
+.head-main img{
+    /*transform: rotate(180deg); 旋转180度*/
+    /*display: block; 经常用来修复图片底部有空间距*/
+    width: 0.5rem;
+    object-fit: cover;
+}
+.head-main h1{
+    font-size: 0.8rem;
+}
+.head-main span{
+    font-size: 0.7rem;
+}
